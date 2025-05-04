@@ -1,7 +1,12 @@
 import "./App.css";
+import MuiTypography from "./components/MuiTypography";
 
 function App() {
-  return <>Hello World</>;
+  return (
+    <>
+      <MuiTypography />
+    </>
+  );
 }
 
 export default App;
